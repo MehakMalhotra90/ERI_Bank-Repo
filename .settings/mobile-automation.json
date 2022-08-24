@@ -1,0 +1,85 @@
+{
+  "GenerateCrossPlatformAttributes": false,
+  "GenerateSelectorsForInnerElements": true,
+  "Connections": [
+    {
+      "Name": "EmulatorAndroid",
+      "Description": null,
+      "Url": "http://127.0.0.1:4723/wd/hub",
+      "PlatformName": "Android",
+      "PlatformVersion": "11.0",
+      "DeviceName": "Pixel 5 API 30",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {
+        "noReset": "False"
+      },
+      "GeoLocation": null,
+      "LoggingModel": {
+        "LoggingEnabled": true,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      }
+    },
+    {
+      "Name": "IOS Device",
+      "Description": null,
+      "Url": "http://hub-cloud.browserstack.com/wd/hub",
+      "PlatformName": "iOS",
+      "PlatformVersion": "14",
+      "DeviceName": "iPhone 12",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {
+        "browserstack.user ": "mehakmalhotra_jaUz9m",
+        "browserstack.key": "PCfi2pBLM22Go1mcczvu"
+      },
+      "GeoLocation": null,
+      "LoggingModel": {
+        "LoggingEnabled": false,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      }
+    }
+  ],
+  "Applications": [
+    {
+      "$id": "1",
+      "Name": "EribankApplication",
+      "Description": null,
+      "Type": "App",
+      "Platforms": {
+        "Android": {
+          "Capabilities": {
+            "app": "C:\\Users\\TX\\Downloads\\eribank.apk"
+          },
+          "StartPage": null
+        }
+      }
+    },
+    {
+      "$id": "2",
+      "Name": "Eri_ios",
+      "Description": null,
+      "Type": "App",
+      "Platforms": {
+        "iOS": {
+          "Capabilities": {
+            "app": "bs://ecda3c46d848739bbe2002ca6b128e882f608676"
+          },
+          "StartPage": null
+        }
+      }
+    }
+  ],
+  "NormalizeSliderValue": false,
+  "IdsMaxAllowedLength": 40,
+  "LogsPath": "%TEMP%\\UiPath Mobile Automation Logs",
+  "Variables": {}
+}
